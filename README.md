@@ -99,7 +99,9 @@ curl -X 'POST' \
   -d '{
   "question": "What are the main technical skills, programming languages, and tools listed in this CV?"
 }'
-Security and Best Practices
-Secret Management: Sensitive AWS credentials are strictly excluded from version control via .gitignore and handled via runtime environment variables.
-
-Stateless API: Designed following REST principles, enabling horizontal scaling and containerization (Docker support ready).
+{
+  "answer": "The main technical skills, programming languages, and tools listed in this CV are:\n\n### Technical Skills:\n- **Generative AI & LLMs**: AWS Bedrock, Claude Models, Amazon Titan, RAG Architecture, LangChain, LangGraph, Prompt Engineering, Enterprise Knowledge Bases\n- **Vector DBs & Search**: Amazon OpenSearch, FAISS, Pinecone, Semantic Search, Vector Embeddings\n- **Data Analytics & Tools**: Python (Pandas, NumPy, Matplotlib), SQL, Data Cleaning & Preprocessing, Exploratory Data Analysis (EDA), KPI/SLA Metrics Tracking, Data Validation\n- **Cloud & DevOps**: AWS (Lambda, API Gateway, S3, CloudWatch, SNS, ECS/EKS), REST APIs (FastAPI), Terraform (IaC), Git, Docker, CI/CD Pipelines\n\n### Programming Languages:\n- **Python**: With libraries such as Pandas, NumPy, and Matplotlib.\n- **SQL**\n\n### Tools:\n- **AWS Services**: Lambda, API Gateway, S3, CloudWatch, SNS, ECS/EKS\n- **Version Control**: Git\n- **Containerization**: Docker\n- **CI/CD**: Continuous Integration/Continuous Deployment Pipelines\n- **Vector Databases & Search**: Amazon OpenSearch, FAISS, Pinecone\n- **Cloud Infrastructure as Code**: Terraform\n\nThese skills and tools reflect a strong background in data analytics, cloud computing, and AI/ML technologies.",
+  "sources": [
+    "Ibrahim Mammadov AI Engineer.pdf"
+  ]
+}.
